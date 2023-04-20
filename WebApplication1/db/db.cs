@@ -16,6 +16,6 @@ public class db : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         base.OnConfiguring(optionsBuilder);
-        optionsBuilder.UseSqlServer()
+        optionsBuilder.UseSqlServer("Data Source=DESKTOP-H8VBLET;Initial Catalog=DBCONVERT;");
     }
 }
