@@ -2,7 +2,7 @@
 
 public class Mailtokilometr
 {
-    public static double B(double c, double d)
+    public double B(double c, double d)
     {
         if (c >= 1)
         {

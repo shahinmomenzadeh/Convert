@@ -2,7 +2,7 @@
 
 public class Cmtoinch
 {
-    public static  double A(double a, double b)
+    public  double A(double a, double b)
     {
         if (a >= 1)
         {
